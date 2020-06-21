@@ -1,3 +1,8 @@
-def my_each # put argument(s) here
-  # code here
+def my_each()           
+  counter = i 
+  
+  while counter < array.length
+  yield array |counter|
+  i +=1
+end
 end
