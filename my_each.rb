@@ -9,5 +9,5 @@ end
 end
 
 my_each(collection) do |counter|
-  puts counter
+  puts #{counter}
 end
