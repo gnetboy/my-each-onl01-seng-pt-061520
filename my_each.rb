@@ -1,13 +1,13 @@
 def my_each(array)           
-  counter = i 
+  counter = 0
   
   while counter < array.length
-  yield array |counter|
-  i +=1
+  yield array [counter]
+  counter +=1
 end
     array
 end
 
 my_each(collection) do |counter|
-  puts #{counter}
+  puts counter
 end
